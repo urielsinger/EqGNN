@@ -1,4 +1,4 @@
-EqGNN: Equalized Node Opportunity in Graph
+EqGNN: Equalized Node Opportunity in Graphs
 ====
 
 This repository provides a reference implementation of *EqGNN* as described in the paper:<br>
