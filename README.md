@@ -25,6 +25,7 @@ python run.py \
     --gpus=${gpus} \
     --lr=${learning_rate} \
     --wd=${weight_decay} \
+    --dropout=${dropout} \
     --dim=${embedding_size} \
     --epochs=${epochs} \
     --lmb=${lambda} \

@@ -450,7 +450,7 @@ class GraphModel:
                                             out_feats=num_labels,
                                             in_label='features',
                                             out_label='labels',
-                                            dropout=0.5,
+                                            dropout=self.hparams.dropout,
                                             type='bce' if num_labels==1 else 'cce',
                                             disc_label = 'sensitive_attribute',
                                             disc_feats = num_sensitive_attribute,

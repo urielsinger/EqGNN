@@ -18,10 +18,11 @@ parser.add_argument('--gpus', type=str, default='0', help='gpus parameter used f
 ######################
 parser.add_argument('--lr', type=float, default=1e-3, dest='learning_rate', help='learning rate')
 parser.add_argument('--wd', type=float, default=1e-5, dest='weight_decay', help='weight_decay')
+parser.add_argument('--dropout', type=float, default=0.5, help='dropout for the classifier')
 parser.add_argument('--dim', type=int, default=128, dest='embedding_size', help='the desired embedding size')
 parser.add_argument('--epochs', type=int, default=1000, help='number of maximum epochs to run')
-parser.add_argument('--lmb', type=int, default=1, help='weight of the discriminator')
-parser.add_argument('--gamma', type=int, default=10, help='weight of the covariance')
+parser.add_argument('--lmb', type=float, default=1, help='weight of the discriminator')
+parser.add_argument('--gamma', type=float, default=50, help='weight of the covariance')
 parser.add_argument('--loss', type=str, default='permutation', dest='discriminator_loss',
                     choices=['permutation', 'paired', 'unpaired', 'FairGNN', 'Debias', 'None'],
                     help='the desired loss of the discriminator')
