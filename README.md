@@ -41,7 +41,11 @@ python run.py \
 Please cite our paper if you use this code in your own work:
 
 ```
-@inproceedings{eqgnn,
-  title={EqGNN: Equalized Node Opportunity in Graphs}
+@inproceedings{aaai2022-eqgnn,
+  title     = {EqGNN: Equalized Node Opportunity in Graphs},
+  author    = {Singer, Uriel and Radinsky Kira},
+  booktitle = {Proceedings of the AAAI conference on artificial intelligence},
+  year      = {2022},
+  month     = {2},
 }
 ```
